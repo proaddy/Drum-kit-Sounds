@@ -53,7 +53,6 @@ function sound(key){
 
 function buttonAnimation(currentKey){
     var pressedKey = document.querySelector("." + currentKey);
-    console.log(pressedKey.classList.add('pressed'));
     setTimeout(() => {
         console.log(pressedKey.classList.remove('pressed'));
     }, 200);
